@@ -6,7 +6,7 @@
 #define SET(REG,BIT) ((REG|=(1<<BIT)))
 #define CLEAR(REG,BIT) ((REG&=~(1<<BIT)))
 #define TOGGLE(REG,BIT) ((REG^=(1<<BIT)))
-#define GET (REG,BIT) (((REG)>>(BIT))&0x01)
+#define GET(REG,BIT) (((REG)>>(BIT))&0x01)
 
 
 
